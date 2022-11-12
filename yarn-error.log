@@ -8,18 +8,18 @@ Yarn version:
   1.22.19
 
 Node version: 
-  18.7.0
+  18.10.0
 
 Platform: 
   android arm64
 
 Trace: 
-  Error: EPERM: operation not permitted, symlink '../../../../pino/bin.js' -> '/storage/emulated/0/ZensBot/node_modules/@adiwajshing/baileys/node_modules/.bin/pino'
+  Error: EACCES: permission denied, symlink '../../../../pino/bin.js' -> '/storage/emulated/0/kontol/node_modules/@adiwajshing/baileys/node_modules/.bin/pino'
 
 npm manifest: 
   {
-    "name": "zens",
-    "version": "1.2.3",
+    "name": "YosokaNesia",
+    "version": "V7",
     "description": "WhatsApp Using Lib Baileys Multi Device",
     "main": "index.js",
     "type": "commonjs",
